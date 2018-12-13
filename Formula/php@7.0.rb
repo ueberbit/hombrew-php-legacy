@@ -5,7 +5,7 @@ class PhpAT70 < Formula
   sha256 "ab8c5be6e32b1f8d032909dedaaaa4bbb1a209e519abb01a52ce3914f9a13d96"
   
   bottle do
-    root_url "https://homebrew.bintray.com/bottles-php-legacy"
+    root_url "https://s3-de-central.profitbricks.com/uehomebrewphplegacy"
     rebuild 1
     sha256 "ec31e4052d3c8d8293174a183c7f5b0a24ec443b581e4425195a20e7234de0af" => :mojave
   end
