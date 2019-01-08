@@ -4,6 +4,11 @@ class PhpAT56 < Formula
   url "https://php.net/get/php-5.6.39.tar.xz/from/this/mirror"
   sha256 "8147576001a832ff3d03cb2980caa2d6b584a10624f87ac459fcd3948c6e4a10"
 
+  bottle do
+    root_url "https://s3-de-central.profitbricks.com/uehomebrewphplegacy"
+    sha256 "92b6977eab7412cdc66cd165f6a5beaef12fc0a6772d365e59cfc928dbcbba4d" => :mojave
+  end
+
   keg_only :versioned_formula
 
   depends_on "httpd" => [:build, :test]
