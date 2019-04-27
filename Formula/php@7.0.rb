@@ -6,8 +6,7 @@ class PhpAT70 < Formula
   
   bottle do
     root_url "https://s3-de-central.profitbricks.com/uehomebrewphplegacy"
-    rebuild 1
-    sha256 "ec31e4052d3c8d8293174a183c7f5b0a24ec443b581e4425195a20e7234de0af" => :mojave
+    sha256 "b9f7f98488be4105729e8f834222ee585746d6f2bfa18f9da7dd1c4f32e8c6ad" => :mojave
   end
 
   keg_only :versioned_formula
